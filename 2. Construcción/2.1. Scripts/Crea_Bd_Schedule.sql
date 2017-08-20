@@ -1,5 +1,7 @@
 USE master;  
 GO 
+IF EXISTS(SELECT * FROM DBO.SYSDATABASES WHERE NAME = 'dbschedule')
+DROP DATABASE dbschedule
 CREATE DATABASE dbschedule
 ON
 ( NAME = schedule_dat,  
