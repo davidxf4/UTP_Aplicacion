@@ -1,5 +1,13 @@
 USE master;  
 GO 
+	/***************************************
+	*Descripcion: SYSDATABASES dbschedule
+	*Fecha Crea: 24/07/2017
+	*Fecha Mod: 9/08/2017
+	*Descripcion:  Crea la tabla dbschedule
+	*Autor:	Henry Guzman - David Eguia
+	*Cambios Importantes: Estandarizar Tabla  
+	*****************************************/
 IF EXISTS(SELECT * FROM DBO.SYSDATABASES WHERE NAME = 'dbschedule')
 DROP DATABASE dbschedule
 CREATE DATABASE dbschedule
