@@ -1,0 +1,4 @@
+Database=schedule
+UserName=schedule
+Password=Policeman321
+Server=dbschedule.database.windows.net

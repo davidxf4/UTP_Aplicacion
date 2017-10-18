@@ -1,0 +1,58 @@
+﻿   .vertical-alignment-helper {
+    display:table;
+    height: 100%;
+    width: 100%;
+    pointer-events:none; /* This makes sure that we can still click outside of the modal to close it */
+    align-items: center;
+    justify-content: center;
+}
+.vertical-align-center {
+    /* To center vertically */
+    display: table-cell;
+    vertical-align: middle;
+    pointer-events:none;
+    align-items: center;
+    justify-content: center;
+}
+.modal-content {
+    /* Bootstrap sets the size of the modal in the modal-dialog class, we need to inherit it */
+    width:inherit;
+    height:inherit;
+    /* To center horizontally */
+    margin: 0 auto;
+    pointer-events: all;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-vertical-centered {
+  transform: translate(0, 50%) !important;
+  -ms-transform: translate(0, 50%) !important; /* IE 9 */
+  -webkit-transform: translate(0, 50%) !important; /* Safari and Chrome */
+}
+
+.col-center-block {
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*
+.modal {
+}
+.vertical-alignment-helper {
+    display:table;
+    height: 100%;
+    width: 100%;
+}
+.vertical-align-center {
+   
+    display: table-cell;
+    vertical-align: middle;
+}
+.modal-content {
+
+    width:inherit;
+    height:inherit;
+    margin: 0 auto;
+¨*/
